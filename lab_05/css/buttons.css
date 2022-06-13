@@ -1,0 +1,32 @@
+.buttons{
+    max-width: 240px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons a {
+    margin: 5px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.edit {
+    border: 1px solid rgb(93, 164, 246);
+    color: rgb(93, 164, 246);
+}
+
+.delete {
+    border: 1px solid rgb(246, 93, 93);
+    color: rgb(246, 93, 93);
+}
+
+.delete:hover {
+    background: rgb(246, 93, 93);
+    color: white;
+}
+
+.edit:hover {
+    background: rgb(93, 164, 246);
+    color: white;
+}
