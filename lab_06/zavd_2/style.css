@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    width: 1200px;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+
+header,
+main {
+    background-color: silver;
+    width: calc(70% - 30px);
+    padding: 10px;
+    float: left;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+nav,
+aside,
+footer {
+    background-color: silver;
+    width: calc(30% - 30px);
+    padding: 10px;
+    float: left;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+
+aside {
+   
+    height: 600px;
+    
+}
+
+footer {
+    
+    height: 300px;
+
+}
