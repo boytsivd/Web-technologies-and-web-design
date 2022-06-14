@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.header-top{
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.logo{
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+    flex: 1 1 100px;
+}
+
+.menu{
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+    flex: 3 1 100px;
+}
+
+.search{
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+    flex:1 1 100px;
+}
+
+main{
+    display: flex;
+}
+
+.side-menu{
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+    flex: 1 1 100px;
+}
+
+.content{
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+    flex: 3 1 100px;
+}
+
+.ad-unit{
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+    flex: 1 1 100px;
+}
+
+.footer{
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
