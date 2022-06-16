@@ -1,0 +1,89 @@
+$color1: #767676;
+$color2: #c0a97a;
+$color3: #fafafa;
+$color4: #484848;
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+// Вложеність
+nav { 
+    background: white;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        text-decoration: none;
+        outline: none;
+        display: block;
+        transition: .4s ease-in-out;
+    }
+}
+// Вложеність 
+
+
+
+nav nav .topmenu {
+    text-align: center;
+    padding: 10px 0;
+}
+.topmenu>li {
+    display: inline-block;
+    position: relative;
+}
+
+
+.topmenu>li:last-child:after {
+    background: none;
+    box-shadow: none;
+}
+
+.topmenu>li>a {
+    padding: 12px 26px;
+    color: color1;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.topmenu li a:hover {
+    color: color2;
+}
+
+.submenu {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width: 210px;
+    margin-left: -105px;
+    background: color3;
+    border: 1px solid #ededed;
+    z-index: 5;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(.8);
+    transition: .4s ease-in-out;
+}
+
+.submenu li a {
+    padding: 10px 0;
+    margin: 0 10px;
+    border-bottom: 1px solid #efefef;
+    font-size: 12px;
+    color: color4;
+    font-family: 'Kurale', serif;
+}
+
+.topmenu>li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
